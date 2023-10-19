@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GG Arsitektural</title>
+
+    <!-- Bootstrap CSS -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link href="./css/style.css" rel="stylesheet" />
-  </head>
 
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="assets/img/logo.png" type="image/x-icon" />
+
+    <title>Hello, world!</title>
+  </head>
   <body>
-    <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="sticky-nav">
+    <!--navbar-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: rgb(50, 46, 46)"
+      id="sticky-nav"
+    >
       <!-- <a class="navbar-brand container" href="#">Navbar</a> -->
       <button
         class="navbar-toggler"
@@ -35,13 +51,13 @@
       >
         <a class="navbar-brand" href="#">
           <img
-            src="./img/logo.png"
+            src="assets/img/logo.png"
             alt=""
             width="30"
-            height="24"
+            height="30"
             class="d-inline-block align-text-top"
           />
-          GG-Arsitektural
+          GG Arsitektural
         </a>
 
         <ul class="navbar-nav mr-auto">
@@ -63,40 +79,39 @@
         </ul>
       </div>
     </nav>
+    <!--akhir navbar-->
 
-    <!-- home -->
+    <!-- home section -->
     <section class="home" id="home">
       <div>
-        <img src="./img/img-1.jpg" alt="" />
+        <img src="assets/img/img-1.jpg" alt="" />
       </div>
     </section>
-
-    <!-- akhir home -->
+    <!-- akhir home section -->
 
     <!-- portfolio -->
-    <section class="portfolio container" id="portfolio">
+    <section class="portfolio" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col mt-5 mb-5 text-right">
             <h2>Portfolio</h2>
-
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm-4">
             <a href="" class="thumbnail">
-              <img src="./img/img-2.jpg" />
+              <img src="assets/img/img-1.jpg" />
             </a>
           </div>
           <div class="col-sm-4">
             <a href="" class="thumbnail">
-              <img src="./img/img-3.jpg" />
+              <img src="assets/img/img-2.jpg" />
             </a>
           </div>
           <div class="col-sm-4">
             <a href="" class="thumbnail">
-              <img src="./img/img-4.jpg" />
+              <img src="assets/img/img-3.jpg" />
             </a>
           </div>
         </div>
@@ -104,110 +119,122 @@
     </section>
     <!-- akhir portfolio -->
 
-    
     <!-- workflow -->
 
-    <section class="workflow container" id="workflow">
-        <div class="mb-5 text-right">
-        <h2 style="margin-top: 5px;">From Us for Customer</h2>
+    <section class="workflow" id="workflow">
+      <div class="container mb-5">
+        <div class="mt-5 mb-5 pt-5 text-right ">
+        <h2>From Us for Customer</h2>
         </div>
 
-        <!-- <section>
-             <div class="row">
-          <div class="col mt-5 text-right">
-            <hr />
-          </div>
-        </section> -->
-       
-          
-        <div class="card mb-3" style="width: 700px;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                <img src="./img/img-1.jpg" class="img-fluid rounded-start " alt="...">
-                </div>
-                <div class="col-md-8">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-                </div>
+        <div class="top-workflow">
+            <a href="" class="thumbnail">
+            <img src="assets/img/img-1.jpg" />
+            </a>
+            <div>
+            <p>
+            <h3>Workflow</h3>
+                Collaborating with Customer, feedback is a must to make the best
+                design
+            </p>
             </div>
         </div>
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
-
             <div class="col">
-                <div class="card">
+            <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This is a longer card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                </p>
                 </div>
-                <img src="./img/img-1.jpg" class="card-img-bottom" alt="...">
-                </div>
+                <img src="assets/img/img-1.jpg" class="card-img-bottom" alt="..." />
+            </div>
             </div>
             <div class="col">
-                <div class="card">
+            <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This is a longer card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                </p>
                 </div>
-                <img src="./img/img-2.jpg" class="card-img-bottom" alt="...">
-                </div>
+                <img src="assets/img/img-2.jpg" class="card-img-bottom" alt="..." />
+            </div>
             </div>
             <div class="col">
-                <div class="card">
+            <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This is a longer card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                </p>
                 </div>
-                <img src="./img/img-3.jpg" class=card-img-bottom" alt="...">
-                </div>
+                <img src="assets/img/img-3.jpg" class=card-img-bottom" alt="...">
+            </div>
             </div>
             <div class="col">
-                <div class="card">
+            <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This is a longer card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                </p>
                 </div>
-                <img src="./img/img-4.jpg" class="card-img-bottom" alt="...">
-                </div>
+                <img src="assets/img/img-4.jpg" class="card-img-bottom" alt="..." />
+            </div>
             </div>
             <div class="col">
-                <div class="card">
+            <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This is a longer card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                </p>
                 </div>
-                <img src="./img/img-4.jpg" class="card-img-bottom" alt="...">
-                </div>
+                <img src="assets/img/img-5.jpg" class="card-img-bottom" alt="..." />
+            </div>
             </div>
             <div class="col">
-                <div class="card">
+            <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This is a longer card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                </p>
                 </div>
-                <img src="./img/img-4.jpg" class="card-img-bottom" alt="...">
-                </div>
+                <img src="assets/img/img-6.jpg" class="card-img-bottom" alt="..." />
+            </div>
             </div>
         </div>
+      </div>
     </section>
-    
+
     <!-- akhir workflow -->
 
     <!-- about -->
     <section class="about" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
-            <h2 class="text-center">About</h2>
-
-          </div>
-        </div>
+            <div class="col mt-5 mb-5 text-right">
+            <h2 class="text-right">About</h2>
+            </div>
 
         <div class="row">
-          <div class="col-sm-5 col-sm-offset-1">
+          <div class="col col-sm-offset-1">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
               aut fuga recusandae ad vero voluptates voluptatibus iusto expedita
@@ -215,31 +242,31 @@
               eius iure quis.
             </p>
           </div>
-          <div class="col-sm-5">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-              ipsam, veritatis nesciunt eveniet voluptas labore quidem
-              recusandae enim, repudiandae ab accusantium consectetur minus
-              optio adipisci voluptates omnis consequuntur dolore qui?
-            </p>
-          </div>
+          
         </div>
       </div>
     </section>
     <!-- akhir about -->
 
+    <!-- hero section -->
+    <section class="hero" id="hero">
+      <div>
+        <img src="assets/img/img-1.jpg" alt="" />
+      </div>
+    </section>
+    <!-- akhir hero section -->
+
     <!-- contact -->
     <section class="contact" id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 text-center">
-            <h2>Contact</h2>
-
+          <div class="col-sm-12 mb-5 mt-5 text-right">
+            <h2>Let Us Get in Touch</h2>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-sm-8 col-sm-offset-2">
+          <div class="col-sm-6 col-sm-offset-2">
             <form>
               <div class="form-group">
                 <label for="nama">Nama</label>
@@ -262,17 +289,57 @@
               <div class="form-group">
                 <label for="telp">No Telepon</label>
                 <input
-                  type="tel"
-                  id="telp"
+                  type="tlp"
+                  id="tlp"
                   class="form-control"
-                  placeholder="masukkan no telepon"
+                  placeholder="masukkan No Telpon"
                 />
               </div>
-              <select class="form-control">
-                <option>-- Pilih Kategori --</option>
-                <option>Web Design</option>
-                <option>Web Development</option>
-              </select>
+            
+              <div class="row">
+                    <div class="form-group col-sm-6">
+                        <label for="comp">Company Name</label>
+                        <input
+                        type="tlp"
+                        id="tlp"
+                        class="form-control"
+                        placeholder="masukkan No Telpon"
+                        />
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="ind">Industry</label>
+                        <input
+                        type="ind"
+                        id="ind"
+                        class="form-control"
+                        placeholder="Industry"
+                        />
+                        
+                    </div>
+                </div>
+                <div class="row">
+                     <div class="form-group col-sm-6">
+                        <label for="sqr">Square Meter</label>
+                        <input
+                        type="sqr"
+                        id="sqr"
+                        class="form-control"
+                        placeholder="Square Meter"
+                        />
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="bdg">Budget</label>
+                        <input
+                        type="bdg"
+                        id="bdg"
+                        class="form-control"
+                        placeholder="Budget"
+                        />
+                    </div>
+                </div>
+                   
+           
+              
               <div class="form-group">
                 <label for="pesan">Pesan</label>
                 <textarea
@@ -281,7 +348,8 @@
                   placeholder="masukkan pesan"
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+              <p>*must fill input form</p>
+              <button type="submit" class="btn btn-primary mb-5">Kirim Pesan</button>
             </form>
           </div>
         </div>
@@ -306,20 +374,20 @@
     </footer>
     <!-- akhir footer -->
 
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
   </body>
 </html>
