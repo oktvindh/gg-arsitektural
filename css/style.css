@@ -1,9 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --black1: rgb(43, 41, 40);
+  --black2: rgb(0, 0, 0);
+  --gray1: rgb(216, 214, 212);
+  --white1: rgb(255, 255, 255);
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background: #afa5a5;
   height: 2000px;
 }
 
+nav {
+  background-color: var(--black1);
+}
 .home {
   width: 100%;
   height: 100vh;
@@ -20,15 +37,11 @@ body {
 .top-workflow img {
   width: 40%;
   height: 40%;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .top-workflow div {
   float: right;
-}
-
-.about {
-  margin-bottom: 50px;
 }
 
 .hero img {
@@ -40,19 +53,38 @@ body {
   min-height: 800px;
 }
 
+.workflow,
+.contact {
+  background-color: var(--black1);
+  color: var(--white1);
+}
+
+footer a {
+  color: var(--white1);
+}
+
+.portfolio,
+.about {
+  background-color: var(--gray1);
+  color: var(--black1);
+}
+
 footer {
   bottom: 0;
   width: 100%;
   height: 120px;
-  background-color: #333;
   padding-top: 30px;
+  background-color: var(--black2);
 }
 
 footer p {
-  color: #aaa;
+  color: var(--gray1);
   font-size: 0.9em;
 }
 
-footer p i {
-  color: salmon;
+.hero {
+  background-image: url("/assets/img/banner2.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
 }
