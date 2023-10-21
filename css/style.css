@@ -9,14 +9,6 @@ body {
   height: 600px;
 }
 
-.workflow {
-  background-color: blueviolet;
-}
-
-.portfolio {
-  /* background-color: rgb(43, 226, 98); */
-}
-
 .portfolio img {
   width: 350px;
   height: 350px;
@@ -33,7 +25,6 @@ body {
 }
 
 .about {
-  background-color: white;
   margin-bottom: 50px;
 }
 
