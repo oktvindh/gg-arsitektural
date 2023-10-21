@@ -18,9 +18,6 @@ body {
   height: 2000px;
 }
 
-nav {
-  background-color: var(--black1);
-}
 .home {
   width: 100%;
   height: 100vh;
@@ -53,6 +50,7 @@ nav {
   min-height: 800px;
 }
 
+nav,
 .workflow,
 .contact {
   background-color: var(--black1);
