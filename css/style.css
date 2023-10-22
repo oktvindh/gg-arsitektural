@@ -34,20 +34,23 @@ body {
   background-attachment: fixed;
 }
 
-.portfolio img {
+/* .portfolio img {
   width: 350px;
   height: 350px;
-}
+} */
 
-.top-workflow img {
+/* .portfolio-img {
+  width: 100%;
+} */
+
+/* .top-workflow img {
   width: 40%;
   height: 40%;
-  /* margin-bottom: 50px; */
-}
+} */
 
-.top-workflow div {
+/* .top-workflow div {
   float: right;
-}
+} */
 
 .hero img {
   width: 100%;
