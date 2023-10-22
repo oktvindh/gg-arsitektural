@@ -12,6 +12,14 @@
   --white1: rgb(255, 255, 255);
 }
 
+a {
+  text-decoration: none;
+}
+
+.card-body a {
+  color: var(--black1);
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
