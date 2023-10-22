@@ -10,6 +10,7 @@
   --black2: rgb(0, 0, 0);
   --gray1: rgb(216, 214, 212);
   --white1: rgb(255, 255, 255);
+  --red: rgb(243, 41, 41);
 }
 
 a {
@@ -68,6 +69,11 @@ nav,
   color: var(--white1);
 }
 
+nav ul li a:hover {
+  border-bottom: 2px solid var(--red);
+  padding-bottom: 0;
+}
+
 footer a {
   color: var(--white1);
 }
@@ -91,6 +97,14 @@ footer p {
   font-size: 0.9em;
 }
 
+footer a {
+  color: var(--white1);
+}
+
+footer a:hover {
+  color: var(--red);
+}
+
 .hero {
   /* background-image: url("/assets/img/banner2.jpg") !important; */
   background-image: url("https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
@@ -98,4 +112,15 @@ footer p {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+.btn-danger {
+  padding: 12px 24px;
+  border-radius: 0;
+  background-color: transparent;
+  border: 2px solid var(--red);
+}
+
+.list-unstyled a:hover {
+  color: var(--red);
 }
