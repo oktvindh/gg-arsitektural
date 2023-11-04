@@ -29,6 +29,7 @@
   @include('frontend.inc.navbar')
   <!--akhir navbar-->
 
+  @yield('main')
 
   <!-- footer -->
   @include('frontend.inc.footer')

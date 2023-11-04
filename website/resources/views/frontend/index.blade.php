@@ -1,6 +1,7 @@
-@include('frontend.master')
+@extends('frontend.master')
 
-  <!-- home section -->
+@section('main')
+<!-- home section -->
   @include('frontend.inc.home')
   <!-- akhir home section -->
 
@@ -22,5 +23,5 @@
 
   <!-- contact -->
   @include('frontend.inc.contact')
-  <!-- akhir contact -->
-
+  <!-- akhir contact -->    
+@endsection
