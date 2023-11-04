@@ -2,19 +2,19 @@
 
 @section('main')
 <!-- home section -->
-  @include('frontend.inc.home')
+  @include('frontend.pages.home')
   <!-- akhir home section -->
 
   <!-- portfolio -->
-  @include('frontend.inc.portfolio')
+  @include('frontend.pages.portfolio')
   <!-- akhir portfolio -->
 
   <!-- workflow -->
-  @include('frontend.inc.workflow')
+  @include('frontend.pages.workflow')
   <!-- akhir workflow -->
 
   <!-- about -->
-  @include('frontend.inc.about')
+  @include('frontend.pages.about')
   <!-- akhir about -->
 
   <!-- hero section -->
@@ -22,6 +22,6 @@
   <!-- akhir hero section -->
 
   <!-- contact -->
-  @include('frontend.inc.contact')
+  @include('frontend.pages.contact')
   <!-- akhir contact -->    
 @endsection

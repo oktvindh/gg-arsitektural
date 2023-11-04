@@ -12,22 +12,22 @@
           <form>
             <div class="form-group mb-3">
               <label for="nama">Name *</label>
-              <input type="text" id="nama" class="form-control" />
+              <input type="text" id="nama" class="form-control rounded-0" />
             </div>
             <div class="form-group mb-3">
               <label for="nama">Address *</label>
-              <input type="text" id="nama" class="form-control" />
+              <input type="text" id="nama" class="form-control rounded-0" />
             </div>
             <div class="form-group mb-3">
               <label for="email">Email *</label>
-              <input type="email" id="email" class="form-control" />
+              <input type="email" id="email" class="form-control rounded-0" />
             </div>
             <div class="form-group mb-3">
-              <label for="telp">Phone *</label>
-              <input type="tlp" id="tlp" class="form-control" />
+              <label for="telp">WhatsApp *</label>
+              <input type="tlp" id="tlp" class="form-control rounded-0" />
             </div>
 
-            <div class="row mb-3">
+            {{-- <div class="row mb-3">
               <div class="form-group col-sm-6 mb-3">
                 <label for="comp">Company Name</label>
                 <input type="tlp" id="tlp" class="form-control" />
@@ -47,14 +47,14 @@
                 <label for="bdg">Budget</label>
                 <input type="bdg" id="bdg" class="form-control" />
               </div>
-            </div>
+            </div> --}}
 
             <div class="form-group">
               <label for="pesan">Message</label>
-              <textarea class="form-control" rows="10"></textarea>
+              <textarea class="form-control rounded-0" rows="10"></textarea>
             </div>
-            <p>*Must fill input form</p>
-            <button type="submit" class="btn btn-danger mb-5">Submit</button>
+            <p class="mt-3">*Must fill input form</p>
+            <button type="submit" class="btn btnDanger mb-5">Submit</button>
           </form>
         </div>
 

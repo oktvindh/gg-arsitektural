@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@400;500;700&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="{{asset('frontend/css/style.css')}}" />
-  <link rel="icon" href="{{asset('frontend/assets/img/logo.png')}}" type="image/x-icon" />
+  <link rel="icon" href="{{asset('frontend/assets/logo/logo.png')}}" type="image/x-icon" />
 
   <title>GG Arsitektural</title>
 </head>

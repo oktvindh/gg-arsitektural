@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
     <div class="container">
       <a class=" navbar-brand" href="#">
-        <img src="{{asset('frontend/assets/img/logo.png')}}" width="25" alt="logo"> <span class="p-2 text-white"><strong>GG
+        <img src="{{asset('frontend/assets/logo/logo2.png')}}" width="25" alt="logo"> <span class="p-2 text-white"><strong>GG
             Arsitektural</strong></span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"

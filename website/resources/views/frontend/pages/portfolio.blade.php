@@ -23,6 +23,26 @@
             <img src="{{asset('frontend/assets/img/portfolio/3/Enscape_2023-10-12-14-07-42.png')}}" class="img-fluid" />
           </a>
         </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <a href="" class="thumbnail">
+            <img src="{{asset('frontend/assets/img/portfolio/3/Enscape_2023-10-12-14-07-42.png')}}" class="img-fluid" />
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <a href="" class="thumbnail">
+            <img src="{{asset('frontend/assets/img/portfolio/3/Enscape_2023-10-12-14-07-42.png')}}" class="img-fluid" />
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <a href="" class="thumbnail">
+            <img src="{{asset('frontend/assets/img/portfolio/3/Enscape_2023-10-12-14-07-42.png')}}" class="img-fluid" />
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <a href="" class="thumbnail">
+            <img src="{{asset('frontend/assets/img/portfolio/3/Enscape_2023-10-12-14-07-42.png')}}" class="img-fluid" />
+          </a>
+        </div>
       </div>
     </div>
   </section>
