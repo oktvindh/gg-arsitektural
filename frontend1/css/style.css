@@ -104,10 +104,11 @@ h6,
 
 /*** Navbar Start ***/
 .nav-bar {
-  background: var(--bs-light);
+  background: var(--bs-dark);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   font-family: "Poppins", sans-serif;
   z-index: 100;
+  color: var(--bs-white) !important;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -167,10 +168,9 @@ h6,
   background-size: cover;
   overflow: hidden;
   background: #c04848; /* fallback for old browsers */
-  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)),
+  background: linear-gradient(rgba(0, 9, 39, 0.9), rgba(10, 18, 32, 0.4)),
     url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)),
-    url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
