@@ -167,9 +167,8 @@ h6,
   background-position: center;
   background-size: cover;
   overflow: hidden;
-  background: #c04848; /* fallback for old browsers */
   background: linear-gradient(rgba(0, 9, 39, 0.9), rgba(10, 18, 32, 0.4)),
-    url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* Chrome 10-25, Safari 5.1-6 */
+    url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") !important; /* Chrome 10-25, Safari 5.1-6 */
 
   background-size: cover;
   background-repeat: no-repeat;
